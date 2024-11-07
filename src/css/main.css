@@ -12,3 +12,99 @@ img,
 video {
   display: block;
 }
+
+body {
+  display: block;
+  padding: 40px;
+}
+
+h1 {
+  font-family: lato;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  display: flex;
+  width: 284px;
+  padding: 20px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 2px 2px 8px 0px rgba(0, 0, 0, 0.25);
+}
+
+h2 {
+  font-family: lato;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+h3 {
+  display: flex;
+  font-family: lato;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  margin-left: auto;
+}
+
+p {
+  font-family: lato;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.brocoli {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  align-self: stretch;
+}
+
+.gruyère {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  align-self: stretch;
+}
+
+.carottes {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  align-self: stretch;
+}
+
+.chips {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  align-self: stretch;
+}
+
+.button {
+  display: flex;
+  width: 244px;
+  height: 50px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 25px;
+  background: #0a003c;
+  color: white;
+  font-family: Lato;
+  font-size: 18px;
+}
+
+.button:hover {
+  background: #4924ff;
+}
+.button:hover {
+  transition-duration: 0.5s;
+}
